@@ -15,7 +15,7 @@ function CurrencyConverter() {
     const fetchRates = async () => {
       try {
         const response = await axios.get(
-          `http://api.exchangeratesapi.io/v1/latest`,
+          `https://api.exchangeratesapi.io/v1/latest`,
           {
             params: {
               access_key: apiKey,
